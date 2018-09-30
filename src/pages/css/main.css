@@ -1,0 +1,133 @@
+body{
+    background-color: #f1f1f1;
+}
+.searchContainer{
+    position: absolute;
+    top: 200px;
+    left: 12.5%;
+    width: 75%;
+    height: 700px;
+    background-image: url("C:/Users/User/Desktop/ReactJS/fastservice/src/assets/pics/1.jpg");
+    background-color: #585858;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 100px;
+}
+h1{
+    color: white;
+    font-size: 48px;
+    padding: 0%;
+}
+h2{
+    color: white;
+    padding: 0%;
+}
+.searchContainer h1{
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
+.searchContainer button{
+    border-radius: 8px;
+    padding: 20px;
+    border-color: transparent;
+    width: 15%;
+    height: auto;
+    color: white;
+    background-color: #269CC1;
+    position: relative;
+    left: 80px;
+    top: 13px;
+}
+
+.searchContainer input{
+    position: relative;
+    left: 80px;
+    top: 20px;
+    border-radius: 8px;
+    border-color: transparent;
+    width: 65%;
+    height: auto;
+    font-size: 32px;
+    color: #333333;
+    padding: 8px;
+
+}
+
+.wheelContainer{
+    position: absolute;
+    top: 700px;
+    left:12.5%;
+    width:75%;
+    height: 100px;
+    background-color:blue;
+    
+}
+.wheelElement{
+
+    height: 100px;
+    width: 120px;
+    background-color:  #aaa;
+    border-radius: 5%;
+ 
+}
+.wheelUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+}
+.wheelElement p{
+    color: #333333; 
+    text-align: center;
+    line-height: 100px;
+}
+ 
+.proContainer{
+    display: grid;
+    position: absolute;
+    top: 850px;
+    left: 12.5%;
+    width: 75%;
+    height: 400px;
+    background-image: url("C:/Users/User/Desktop/ReactJS/fastservice/src/assets/pics/2.jpg");
+    background-color:#585858;
+    background-repeat: no-repeat
+}
+
+.proContainer h1{
+    position: relative;
+    right: 80px;
+    top: 100px;
+    text-align: right
+}
+.proContainer h2{
+    position: relative;
+    right: 80px;
+    text-align: right
+}
+.proContainer button{
+    position: relative;
+    left: 780px;
+    top: -60px;
+    border-radius: 8px;
+    padding: 1px;
+    border-color: transparent;
+    width: 15%;
+    height: auto;
+    color: white;
+    background-color: #269CC1;
+    
+}
+
+.leftside{
+    width:50%;
+    background-color: blue
+}
+
+.rightside{
+    width:50%;
+    background-color: black
+}

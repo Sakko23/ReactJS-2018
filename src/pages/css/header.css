@@ -1,0 +1,48 @@
+p, h1, h2, ul {
+    font-family: "Arial", Times, Sans-serif;
+}
+
+ul {
+    font-size: 18px;
+}
+
+.helement{
+    width: 100%;
+    padding: 16px;
+}
+
+.helement:hover{
+    background-color: #E5E5E5;    
+    color: #3C3C3C;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+
+    padding: 16px;
+}
+
+li a {
+    display: block;
+    color: #585858;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.logoMain {
+	margin-top: 10px;
+	float: left;
+}
+
+
