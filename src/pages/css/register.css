@@ -64,14 +64,19 @@
 .lleftside{
     float:left;
 }
-img{
+ img{
     height: 24px;
     float: left;
     margin: 8px;
-}
+} 
 
 .rrightside{
     float:right;
     background-color: white;
+}
+
+button:disabled,
+button[disabled]{
+    background-color: #bdbdbd;
 }
 

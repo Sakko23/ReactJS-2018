@@ -1,133 +1,86 @@
-body{
-    background-color: #f1f1f1;
+body {
+  background-color: #f1f1f1;
 }
-.searchContainer{
-    position: absolute;
-    top: 200px;
-    left: 12.5%;
-    width: 75%;
-    height: 700px;
-    background-image: url("C:/Users/User/Desktop/ReactJS/fastservice/src/assets/pics/1.jpg");
-    background-color: #585858;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 100px;
-}
+
 h1{
+    font-size: 40px;
     color: white;
-    font-size: 48px;
-    padding: 0%;
+    font-weight: normal;
 }
+
 h2{
+    font-size: 24px;
     color: white;
-    padding: 0%;
-}
-.searchContainer h1{
-    position: relative;
-    left: 80px;
-    top: 100px;
-}
-.searchContainer button{
-    border-radius: 8px;
-    padding: 20px;
-    border-color: transparent;
-    width: 15%;
-    height: auto;
-    color: white;
-    background-color: #269CC1;
-    position: relative;
-    left: 80px;
-    top: 13px;
+    font-weight: normal;
 }
 
-.searchContainer input{
-    position: relative;
-    left: 80px;
-    top: 20px;
+button {
+    font-size: 20px;
     border-radius: 8px;
+    padding: 14px 20px;
     border-color: transparent;
+    color: white;
+    background-color: #269CC1;
+}
+
+.searchContainer {
+  height: 600px;
+  background-image: url("../../assets/pics/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.searchContainer .title{
+    padding-top: 175px;
+    padding-left: 50px;
+}
+
+.searchContainer .form{
+    padding-left: 50px;
+}
+
+.searchContainer input {
+    font-size: 20px;
     width: 65%;
-    height: auto;
-    font-size: 32px;
-    color: #333333;
-    padding: 8px;
-
-}
-
-.wheelContainer{
-    position: absolute;
-    top: 700px;
-    left:12.5%;
-    width:75%;
-    height: 100px;
-    background-color:blue;
-    
-}
-.wheelElement{
-
-    height: 100px;
-    width: 120px;
-    background-color:  #aaa;
-    border-radius: 5%;
- 
-}
-.wheelUl {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #fff;
-}
-.wheelElement p{
-    color: #333333; 
-    text-align: center;
-    line-height: 100px;
-}
- 
-.proContainer{
-    display: grid;
-    position: absolute;
-    top: 850px;
-    left: 12.5%;
-    width: 75%;
-    height: 400px;
-    background-image: url("C:/Users/User/Desktop/ReactJS/fastservice/src/assets/pics/2.jpg");
-    background-color:#585858;
-    background-repeat: no-repeat
-}
-
-.proContainer h1{
-    position: relative;
-    right: 80px;
-    top: 100px;
-    text-align: right
-}
-.proContainer h2{
-    position: relative;
-    right: 80px;
-    text-align: right
-}
-.proContainer button{
-    position: relative;
-    left: 780px;
-    top: -60px;
     border-radius: 8px;
-    padding: 1px;
     border-color: transparent;
-    width: 15%;
-    height: auto;
-    color: white;
-    background-color: #269CC1;
-    
+    color: #333333;
+    padding:14px 8px ;
 }
 
-.leftside{
-    width:50%;
-    background-color: blue
+.wheelsContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #fff;
+  padding-top: 20px;
 }
 
-.rightside{
-    width:50%;
-    background-color: black
+.wheel {
+  text-align: center;
+}
+
+.wheel img {
+  height: 60px;
+}
+
+.wheel p {
+  font-size: 18px;
+  color: #7f7d7d;
+}
+
+.proContainer{
+    height: 600px;
+    background-image: url("../../assets/pics/2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+}
+
+.proContainer .content{
+    text-align: right;
+    padding-right: 95px;
+    padding-top: 200px;
 }

@@ -1,121 +1,38 @@
-.searchContainer{
-    position: absolute;
-    width: 75%;
-    left: 12.5%;
-    background: linear-gradient(black, #f1f1f1);
-}
-
-.logo img{
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-    size: fit;
-    align-content: center;
-
-}
-.logo{
-    grid-area: header;
-    padding: 0;
-    margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-.logo h3{
-    color: #269CC1;
-}
 .searchBar{
-    margin: 3%;
-    position: relative;
-    top: -100px;
-}
-.resultsContainer{
-    margin: 8%;
-    position: relative;
-    background-color: transparent;
-    height: auto;
-
-}
-.result{
-    padding-top: 20px;
-    padding-bottom: 100px;
-    width: 100%;
-    background-color: white;
-    margin: 0%;
-    box-shadow: inset 0px 0px 0px 1px#828282;
-    border-radius: 8px;
-    display: grid;
-    height: 250px;
-    margin-bottom: 20px;
-    grid-template-areas:
-    'header name name name rating stars stars'
-    'header pro pro pro btn btn btn'
-    'otzyv city city city btn2 btn2 btn2'
-    ;
-
+  padding-top: 40px;
+  display: flex;
 }
 
-.result h2{
-    position: relative;
-    font-size: 24px;
-    color:#269CC1;
-}
-.result h3{
-    position: relative;
-    font-size: 16px;
-    color:#333333;
-    padding: 0;
-}
-.result h4{
-    position: relative;
-    font-size: 16px;
-    color:#333333;
-    font-style: italic;
-}
-
-.result button{
-    width: 80%;
-    padding: 0;
-    position: relative;
-    height: 70px;
-    left:0;
-}
-
-.item2 { grid-area: name; }
-.item3 { grid-area: pro; }
-.item4 { grid-area: city; }
-.item6 {
-    grid-area: rating;}
-
-.item5 {
-    grid-area: otzyv; 
-    text-align: center;
-    color: #269CC1;
-}
-
-
-.item8{
-    grid-area: btn2;
-}
-.item7 {
-    width: 100%;
-    /* position: absolute; */
-    left: 0;
-    grid-area: btn;
-
-
+.searchBar input{
+  flex-grow: 1; 
+  font-size: 20px;
+  border-radius: 8px;
+  border-color: transparent;
+  color: #333333;
+  padding: 14px 8px;
 }
 .searchBar button{
-   text-align: center;
-   
+  padding: 14px 50px;
 }
 
-#hirebtn{
-    background-color: #C12626;
+.resultsContainerBack {
+  background-image: url("../../assets/pics/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
 }
 
-#rev{
-    color: #269CC1;
-    font-size: 14px;
-    font-style: italic;
+.resultsContainer{
+  width: 90%;
+  margin: 0 auto;
+}
+.logo img {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+.logo h3 {
+  color: #269CC1;
 }
