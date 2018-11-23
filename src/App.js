@@ -10,7 +10,7 @@ import Main from './pages/main.js'
 import Footer from './pages/footer.js';
 import Search from './pages/search';
 import { firebase } from './firebase';
-
+import About from './pages/about'
 class App extends Component {
   constructor(props) {
     super(props);
@@ -36,6 +36,7 @@ class App extends Component {
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} /> 
         <Route path="/search" component={Search} /> 
+        <Route path="/about" component={About} />
 
       </div>
     
